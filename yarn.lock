@@ -3096,6 +3096,11 @@ electron-localshortcut@^3.0.0:
     keyboardevent-from-electron-accelerator "^2.0.0"
     keyboardevents-areequal "^0.2.1"
 
+electron-log@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.npm.taobao.org/electron-log/download/electron-log-4.0.7.tgz#39b010d2dbd7b1c43e6fa1ae8c6be2b536a215c1"
+  integrity sha1-ObAQ0tvXscQ+b6GujGvitTaiFcE=
+
 electron-osx-sign@0.4.11:
   version "0.4.11"
   resolved "https://registry.npm.taobao.org/electron-osx-sign/download/electron-osx-sign-0.4.11.tgz#8377732fe7b207969f264b67582ee47029ce092f"
@@ -3844,6 +3849,13 @@ getpass@^0.1.1:
   integrity sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
   dependencies:
     assert-plus "^1.0.0"
+
+github-url-to-object@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.npm.taobao.org/github-url-to-object/download/github-url-to-object-4.0.4.tgz#a9797b7026e18d53b50b07f45b7e169b55fd90ee"
+  integrity sha1-qXl7cCbhjVO1Cwf0W34Wm1X9kO4=
+  dependencies:
+    is-url "^1.1.0"
 
 glob-parent@^3.1.0:
   version "3.1.0"
@@ -4713,6 +4725,11 @@ is-upper-case@^1.1.0:
   integrity sha1-jQsfp+eTOh5YSDYA7H2WYcuvdW8=
   dependencies:
     upper-case "^1.1.0"
+
+is-url@^1.1.0, is-url@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.npm.taobao.org/is-url/download/is-url-1.2.4.tgz#04a4df46d28c4cff3d73d01ff06abeb318a1aa52"
+  integrity sha1-BKTfRtKMTP89c9Af8Gq+sxihqlI=
 
 is-utf8@^0.2.0:
   version "0.2.1"
@@ -8217,6 +8234,16 @@ upath@^1.1.1:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/upath/download/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
   integrity sha1-j2bbzVWog6za5ECK+LA1pQRMGJQ=
+
+update-electron-app@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npm.taobao.org/update-electron-app/download/update-electron-app-1.5.0.tgz#492cb904db07a0b28dbd83fb52e0fe500bbe3463"
+  integrity sha1-SSy5BNsHoLKNvYP7UuD+UAu+NGM=
+  dependencies:
+    electron-is-dev "^0.3.0"
+    github-url-to-object "^4.0.4"
+    is-url "^1.2.4"
+    ms "^2.1.1"
 
 update-notifier@^3.0.0:
   version "3.0.1"
